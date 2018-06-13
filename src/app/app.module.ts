@@ -2,6 +2,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule }    from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { HomepageComponent } from './homepage/homepage.component';
 
 // used to create fake backend
 import { fakeBackendProvider } from './_helpers/index';
@@ -28,6 +29,7 @@ import { RegisterComponent } from './register/index';
         AppComponent,
         AlertComponent,
         HomeComponent,
+        HomepageComponent,
         LoginComponent,
         RegisterComponent
     ],

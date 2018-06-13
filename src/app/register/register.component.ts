@@ -1,11 +1,11 @@
 ﻿import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-
 import { AlertService, UserService } from '../_services/index';
 
 @Component({
     moduleId: module.id.toString(),
-    templateUrl: 'register.component.html'
+    templateUrl: 'register.component.html',
+    styleUrls: ['./register.component.css']
 })
 
 export class RegisterComponent {
